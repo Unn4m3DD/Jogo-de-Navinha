@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1652656680153934}
+  m_IsPrefabParent: 1
+--- !u!1 &1652656680153934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4854088991393418}
+  - component: {fileID: 114402102463402592}
+  m_Layer: 0
+  m_Name: SavesHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4854088991393418
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652656680153934}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114402102463402592
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652656680153934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fccf4a93bdd64404d833dd9a386beaa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nave: []
+  Player: {fileID: 0}
+  MenuHandler: {fileID: 0}
+  coinDisplay: {fileID: 0}
+  StatusUpgrades: 
+  SkillUpgrades: 
+  LvlNave: 0
+  isInGame: 1
+  Naves:
+  - {fileID: 0}
+  - {fileID: 1249250279496676, guid: 17efc66ee96a5d04889b47060683b098, type: 2}
+  - {fileID: 1886689846381224, guid: 07f16648cdbc22e469ba6773d3bd91f1, type: 2}
+  - {fileID: 1549410896362858, guid: 1d87e9efff41097438a8d44b29cd41ca, type: 2}
+  - {fileID: 1972358095297836, guid: c83e7a1bf9b4b1a489fb3bbdbb78f662, type: 2}
+  - {fileID: 1968336658937856, guid: 9ab02c1725745744a9a72d2ee0d9df54, type: 2}
+  - {fileID: 1804643378788156, guid: 2531b09747c72414db2a48eab1a93fa5, type: 2}
+  - {fileID: 1612806134742266, guid: 3c45f9fb03b6ede4a9e31e6188bb697e, type: 2}
+  - {fileID: 1332678904787800, guid: 760dbebb9eb9dd347bf570f02ffb90ea, type: 2}
+  - {fileID: 1544324309099146, guid: 0892bde642dff284da6970b952ae3072, type: 2}
+  - {fileID: 1805567099022762, guid: 13d9074e64f14b440955551cb0339b16, type: 2}
+  - {fileID: 1855745074840244, guid: 10f96b1a204c7ce41862cdbc4a52854a, type: 2}

@@ -1,0 +1,58 @@
+SkillSet
+Empty------------0
+Slow Motion------1
+Dmg Boost--------2
+Firing Rate Boot-3
+Magnet-----------4
+
+
+
+
+
+Stats in Savegame
+	Upgrades:
+		//SkillUpgrades:
+			int SlowMotionLVL                 
+			int DmgBoostLVL                   
+			int FiringRateBootLVL             
+			int MagnetLVL                     
+			int EmpLVL                        
+		//StatusUpgrades:
+			int NaveLVL                       
+			int PlayerDamageLVL               
+			int PlayerCriticalChance          
+			int PlayerSpeedLVL                
+			int PlayerFiringRateLVL           
+			int PlayerHpLVL 
+			int UltimateDmg              
+			int PlayerManaLVL                 
+			int CoinMultiplier
+		//Status:
+			int Coins
+
+				  SlowMotion:	DmgBoost:      FiringRateBoost:   Magnet:    Emp:     PlayerDamageLVL:  CriticalChance: BaseFiringRateLVL:   BaseHp:  Ultimate: BaseMana:   CoinsX:
+LVL  |   PREÇO   |   TEMPO	  | MULTIPLICADOR |  MULTIPLICADOR  |  TEMPO |   TEMPO   |       DMG      |    Critical    |     FiringRate   |    Hp    |   Dmg   |  Mana  | Multiplicador |
+ 1   |   1000    |	   2s	  |     1.1x      |      1.1x       |  1.0s  |	  1.0s   |  	 100      |	      1%       |	    0.05      |	   100   |	 100   |  100   |	   10       |
+ 2   |   1500    |	   3s	  |     1.2x      |      1.2x       |  1.1s  |	  1.1s	 |  	 125      |	      2%       |	    0.10      |	   150   |	 150   |  120   |	   11   	|
+ 3	 |   2500    |	   5s	  |     1.3x      |      1.3x       |  1.2s  |	  1.2s	 |  	 150      |	      3%       |	    0.15      |	   200   |	 200   |  140   |	   12   	|
+ 4	 |   5000    |	   6s	  |     1.5x      |      1.5x       |  1.5s  |	  1.5s	 |  	 250      |	      5%       |	    0.25      |	   300   |	 300   |  160   |	   15   	|
+ 5	 |   10000   |	   7s	  |     1.7x      |      1.7x       |  1.7s  |	  1.7s	 |  	 350      |	      7%       |	    0.30      |	   500   |	 500   |  200   |	   17   	|
+ 6	 |   15000   |	   8s	  |     2.0x      |      2.0x       |  1.8s  |	  1.8s	 |  	 500      |	      9%       |	    0.40      |	   750   |	 750   |  250   |	   18   	|
+ 7	 |   25000   |	   10s	  |     2.3x      |      2.3x       |  2.0s  |	  2.0s	 |  	 750      |	      10%      |	    0.50      |	   1000  |	 1000  |  300   | 	   20   	|
+ 8	 |   50000   |	   12s	  |     2.5x      |      2.5x       |  2.4s  |	  2.4s	 |  	 1000     |	      12%      |	    0.60      |	   1250  |	 1250  |  350   |	   24   	|
+ 9	 |   75000   |	   15s	  |     2.7x      |      2.7x       |  2.8s  |	  2.8s	 |  	 1250     |	      13%      |	    0.75      |	   1500  |	 1500  |  400   |	   28   	|
+ 10  |   100000  |	   20s	  |     3.0x      |      3.0x       |  3.0s  |	  3.0s	 |  	 1500     |	      15%      |	    1.00      |	   2000  |	 2000  |  500   |	   30   	|
+
+NaveLVL                  
+LVL  |   PREÇO   |  Hp	 |  Mana  |	FireRate | Canons | Damage | CriticalChance|
+ 1   |           |  100  |  0 	  |	  0.1    |	 2    |   10   |	   1       |
+ 2   |   1000    |  125	 |  0	  |	  0.15   |	 4    |   11   |	   2       |
+ 3	 |   2500    |	200  |	0	  |	  0.2    |	 6    |   12   |	   3       |
+ 4	 |   5000    |	250  |	100   |	  0.25   |	 6    |   13   |	   4       |
+ 5	 |   10000   |	300  |	125   |	  0.30   |	 8    |   14   |	   5       |
+ 6	 |   15000   |	500  |	200   |	  0.4    |	 10   |   15   |	   6       |
+ 6	 |   25000   |	750  |	250   |	  0.5    |	 12   |   16   |	   7       |
+ 7	 |   50000   | 	1000 | 	300   |	  0.75   |	 14   |   17   |	   8       |
+ 8	 |   75000   |	1500 |	500   |	  0.9    |	 16   |   18   |	   9       |
+ 10  |   100000  |	2000 |	1000  |	  1      |	 18   |   20   |	   10      |
+ 
